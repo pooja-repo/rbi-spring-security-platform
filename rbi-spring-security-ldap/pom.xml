@@ -1,0 +1,27 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	
+	<parent>
+		<groupId>com.reallybigindex.spring.security</groupId>
+		<artifactId>spring-security-platform</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	
+	<artifactId>rbi-spring-security-ldap</artifactId>
+	
+	<name>rbi-spring-security-ldap</name>
+	<description>Spring Security LDAP implementation</description>
+	
+	<properties>
+		<org.springframework.security-version>4.2.2.RELEASE</org.springframework.security-version>
+	</properties>
+	
+	<dependencies>
+		<dependency>
+		    <groupId>org.springframework.security</groupId>
+		    <artifactId>spring-security-ldap</artifactId>
+		    <version>4.2.2.RELEASE</version>
+		</dependency>		
+	</dependencies>
+</project>
